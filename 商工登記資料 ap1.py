@@ -11,7 +11,7 @@ data = []
 
 
 def Crawl_XML(President_No,Agency):
-    proxy = 'http://iproxy.capital.com.tw:4633/'
+    proxy = 'http://proxy.yahoo.com.tw:1234/'
     format = 'xml'
     Application_Code = '7E6AFA72-AD6A-46D3-8681-ED77951D912D'
     link = 'http://data.gcis.nat.gov.tw/od/data/api/' + Application_Code + '?$format=' + format + '&$filter=President_No eq ' + President_No + ' and Agency eq ' + Agency
